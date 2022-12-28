@@ -49,5 +49,5 @@ void GoNext1( struct studentNode *walk ) {
 		start = walk->next;
 		*walk = *start;
 		printf( "%s ", walk->name ) ;
-	}
-}
+	}//end if
+}//end function
